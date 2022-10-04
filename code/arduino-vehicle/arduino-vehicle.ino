@@ -28,7 +28,7 @@ void setup()
   pinMode(RightMotorBackward, OUTPUT);
   
   servo_motor.attach(11);   // Attachs the servo on pin 9 to servo object.
-  servo_motor.write(90);   // Set at 115 degrees. 
+  servo_motor.write(90);   // Set at 90 degrees. 
   delay(2000);              // Wait for 2s.
   distance = readPing();    // Get Ping Distance.
   delay(100);               // Wait for 100ms.
