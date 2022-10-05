@@ -1,0 +1,1 @@
+http://www.servoshock.com/servoshock-2-for-dualshock-4.html // connecting a PS4 controller over bluetooth to Arduino
