@@ -6,7 +6,7 @@
     - [] Get spacers 
     - [] Improve mounting layout
 - [] RasPi and ROS
-    - [x] Obtain RasPi
+    - [] Obtain RasPi
     - [] Obtain power supply and connectors
     - [] Install ROS 
     - [] Initialize ROS Project
