@@ -15,20 +15,21 @@ The electrical design of the robot.
 ---
 
 ## Parts
+
 | No. | Name            |
 |:---:|---              |
-|1|UNO R3 Board|
-|2|Ultrasonic Sensor|
-|3|2x DC Motors|
-|4|Servo|
-|5|L298 Motor Driver|
+|1    |UNO R3 Board     |
+|2    |Ultrasonic Sensor|
+|3    |2x DC Motors     |
+|4    |Servo            |
+|5    |L298 Motor Driver|
 
 ## Schematic
 The following is the schematic diagram:
 
-![schematic](/design/schematic.png)
+![schematic](../design/schematic.png)
 
 The pinout definition is:
 
-![pinout](/design/pinout.png)
+![pinout](../design/pinout.png)
 
