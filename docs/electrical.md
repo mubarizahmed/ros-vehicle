@@ -27,9 +27,9 @@ The electrical design of the robot.
 ## Schematic
 The following is the schematic diagram:
 
-![schematic](../design/schematic.png)
+![schematic](../../design/schematic.png)
 
 The pinout definition is:
 
-![pinout](../design/pinout.png)
+![pinout](../../design/pinout.png)
 

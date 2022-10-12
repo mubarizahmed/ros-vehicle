@@ -1,3 +1,11 @@
+---
+layout: default
+title: Ideas
+nav_order: 6
+description: "Ros-vehicle Docs"
+permalink: /ideas
+---
+
 # Ideas
 - [ ] LiDar for distance sensor
 - [x] RasPi + ROS 
