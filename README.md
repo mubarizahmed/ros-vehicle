@@ -33,16 +33,16 @@ A continuous approach allows us to sequentially expand the scope of the project.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
-[contributors-url]: https://github.com/mubarizahmed/arduino-vehicle/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
-[forks-url]: https://github.com/mubarizahmed/arduino-vehicle/members
-[stars-shield]: https://img.shields.io/github/stars/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
-[stars-url]: https://github.com/mubarizahmed/arduino-vehicle/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
-[issues-url]: https://github.com/mubarizahmed/arduino-vehicle/issues
-[license-shield]: https://img.shields.io/github/license/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
-[license-url]: https://github.com/mubarizahmed/arduino-vehicle/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/mubarizahmed/ros-vehicle.svg?style=for-the-badge
+[contributors-url]: https://github.com/mubarizahmed/ros-vehicle/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mubarizahmed/ros-vehicle.svg?style=for-the-badge
+[forks-url]: https://github.com/mubarizahmed/ros-vehicle/members
+[stars-shield]: https://img.shields.io/github/stars/mubarizahmed/ros-vehicle.svg?style=for-the-badge
+[stars-url]: https://github.com/mubarizahmed/ros-vehicle/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mubarizahmed/ros-vehicle.svg?style=for-the-badge
+[issues-url]: https://github.com/mubarizahmed/ros-vehicle/issues
+[license-shield]: https://img.shields.io/github/license/mubarizahmed/ros-vehicle.svg?style=for-the-badge
+[license-url]: https://github.com/mubarizahmed/ros-vehicle/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 
