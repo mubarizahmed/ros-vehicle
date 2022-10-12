@@ -7,5 +7,3 @@
 - [x] Web server remote control
 - [x] BT Joystick control
 
-
-

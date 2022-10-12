@@ -1,1 +1,0 @@
-This is the folder where you save your schematic and pcb design with their related files. 

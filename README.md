@@ -1,92 +1,48 @@
->>>
-**Project-Template**
+<a name="readme-top"></a>
 
-Please use this template for your practical electronics project. (feel free to delete this section) 
-
-You can find a quick guide in the following [cheat sheet](https://www.markdownguide.org/cheat-sheet/) or specific [gitlab style](https://docs.gitlab.com/ee/user/markdown.html) here
-
->>>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 
-----
 
-# Arduino Vehicle
+# ros-vehicle
 
-by: Mubariz Ahmed, Chirag Jaidhara, Muhammad Hadi
+## Description
 
+This is a project to that intends to explore the world of vehicular automation through the design and creation of a differential drive robot.
 
-**Faculty of Technology and Bionics**
+A continuous approach allows us to sequentially expand the scope of the project. The current **roadmap** is described below:
 
-***Rhine-Waal University of Applied Sciences***
+- [x] Off-the-shelf robot with obstacle avoidance using arduino and ultrasonic sensor
+- [x] Joystick teleoperation using ROS running on a Raspberry Pi
+- [ ] Web server remote control
+- [ ] Custom chassis design
+- [ ] SLAM 
+- [ ] Image Recognition
 
-Date: 28 September 2022
+## Authors
+* Chirag Jaidhara
+* Mubariz Ahmed
+* Muhammad Hadi
 
-----
+## Acknowledgements
+* [ROS Mobile Robotics (Diffbot)](https://ros-mobile-robots.com/)
+* [teleop_twist_gamepad](https://github.com/Reinbert/teleop_twist_gamepad)
 
-## Abstract
-
-Short summary of the project and the work conducted
-
-## Table of Contents
-
-[[_TOC_]]
-
-## 1 Introduction
-
-### 1.1	Background
-Necessary background to your work….
-
-Chapter 1 presents….. 
-
-Chapter 2 presents…..
-
-## 2	Literature review
-If you have conducted literature review, this would be the point to present other researchers work in that field.
-
-## 3	Theory
-If necessary please present theory in this section.
-
-This math is inline $`a^2+b^2=c^2`$.
-
-## 4	Methodology
-How was your approach to solve the given problem/task.
-This will include descriptions of the HW used as well as the SW.
-
-This is an example how to include code snippet:
-```python
-def function():
-    #indenting works just fine in the fenced code block
-    s = "Python code"
-    print s
-```
-
-Example how to draw a table:
-
-| Left Aligned | Centered | Right Aligned |
-| :---         | :---:    | ---:          |
-| Cell 1       | Cell 2   | Cell 3        |
-| Cell 4       | Cell 5   | Cell 6        |
-| OpAmp 741    | 2        | 1.00          |
-
-
-## 5	Results
-Here you should present your results.
-
-This is an example how to include image:
-![alt text](resources/Open_Source_Hardware_(OSHW)_Logo_on_blank_PCB.jpg "Example Image")
-(C) Altzone, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
-
-
-## 6	Discussion
-Here you should discuss your results
-
-## 7	Concluding Comments
-You might want to discuss possible future work here
-
-## 8	References
-
-* [1]
-* [2] 
-
-## 9	Appendices
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
+[contributors-url]: https://github.com/mubarizahmed/arduino-vehicle/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
+[forks-url]: https://github.com/mubarizahmed/arduino-vehicle/members
+[stars-shield]: https://img.shields.io/github/stars/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
+[stars-url]: https://github.com/mubarizahmed/arduino-vehicle/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
+[issues-url]: https://github.com/mubarizahmed/arduino-vehicle/issues
+[license-shield]: https://img.shields.io/github/license/mubarizahmed/arduino-vehicle.svg?style=for-the-badge
+[license-url]: https://github.com/mubarizahmed/arduino-vehicle/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
 
