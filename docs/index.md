@@ -50,7 +50,7 @@ The entire project is documented here including how to get it up and running!
 
   5. Set up dependancies
       ```sh
-      sudo apt-get install python-rosinstall python-rosinstall- generator python-wstool build-essential
+      sudo apt-get install python-rosinstall python-rosinstall- generator python-wstool build-essential ros-noetic-roslint
       ```
 
   6. Initialize rosdep
