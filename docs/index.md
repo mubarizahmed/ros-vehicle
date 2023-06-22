@@ -93,5 +93,6 @@ The entire project is documented here including how to get it up and running!
       ```sh
       cd ~/catkin_ws/src
       git clone https://github.com/Reinbert/teleop_twist_gamepad
+      cd ..
       catkin_make
       ```
