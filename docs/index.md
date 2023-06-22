@@ -47,15 +47,18 @@ The entire project is documented here including how to get it up and running!
       echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
       source ~/.bashrc
       ```
-  5. Initialize rosdep
+
+  5. Set up dependancies
+      ```sh
+      sudo apt-get install python-rosinstall python-rosinstall- generator python-wstool build-essential
+      ```
+
+  6. Initialize rosdep
       ```sh
       sudo rosdep init
       rosdep update
       ```
-  6. Set up dependancies
-      ```sh
-      sudo apt-get install python-rosinstall python-rosinstall- generator python-wstool build-essential
-      ```
+
 ### Initializing the workspace
   A workspace has to be initialized where all the ROS packages are kept.
 
