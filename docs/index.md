@@ -88,12 +88,12 @@ A workspace has to be initialized where all the ROS packages are kept.
    echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
    source ~/.bashrc
    ```
-   5. Clone the repository
+5. Clone the repository
    ```sh
      cd ~/catkin_ws/src
      git clone https://github.com/mubarizahmed/ros-vehicle
    ```
-   6. Build the workspace
+6. Build the workspace
    ```sh
    cd ~/catkin_ws
    catkin_make

@@ -1,6 +1,8 @@
 #include <math.h>
 #include <ros.h>
 #include <geometry_msgs/Twist.h>
+#include <std_msgs/Char.h>
+#include <Servo.h>        // Include Servo Library
 
 // #define LED_BUILTIN 2 // Remapping the built-in LED since the NodeMcu apparently uses a different one.
 // #define LED_BUILTIN_RED 16 // If using a NodeMcu v1, then there's another red onboard led.
@@ -9,11 +11,16 @@
 #define PWM_MIN 0
 #define PWMRANGE 255
 
+//servo
+Servo servo_motor;  // Servo's name
+int servo_pos = 90; 
+
 // Declare functions
 void setupPins();
 void setupSerial();
 // bool rosConnected();
 void onTwist(const geometry_msgs::Twist &msg);
+void onCamera(const std_msgs::Char& msg);
 float mapPwm(float x, float out_min, float out_max);
 
 // Pins
@@ -28,6 +35,7 @@ const uint8_t L_PWM = 6;
 // ROS serial server
 ros::NodeHandle node;
 ros::Subscriber<geometry_msgs::Twist> sub("cmd_vel", &onTwist);
+ros::Subscriber<std_msgs::Char> camera_sub("camera_dir", &onCamera);
 
 bool _connected = false;
 
@@ -35,11 +43,13 @@ void setup()
 {
   setupPins();
   //setupSerial();
-  
+  servo_motor.attach(11); 
+
   // Connect to rosserial socket server and init node. (Using default port of 11411)
   node.getHardware()->setBaud(57600);
   node.initNode();
   node.subscribe(sub);
+  node.subscribe(camera_sub);
 
   // node.logerror(printf ("Connected: %s", node.connected() ? "true":"false"));
 
@@ -77,6 +87,17 @@ void stop()
   digitalWrite(R_BACK, 0);
   analogWrite(L_PWM, 0);
   analogWrite(R_PWM, 0);
+}
+
+void onCamera(const std_msgs::Char& msg){
+  if (msg.data == 'l'){
+    servo_pos = servo_pos + 10;
+    servo_motor.write(servo_pos);
+  } else if (msg.data == 'r'){
+    servo_pos = servo_pos - 10;
+    servo_motor.write(servo_pos);
+  }
+
 }
 
 void onTwist(const geometry_msgs::Twist& msg)
